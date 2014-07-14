@@ -6,7 +6,7 @@
     "George"
   ],
   "description": "angular plugin",
-  "main": "plugin.js",
+  "main": "ng-plugin.js",
   "keywords": [
     "angular",
     "pulgin",
