@@ -1,16 +1,19 @@
 {
   "name": "g3org3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://g3org3.github.io/",
   "authors": [
-    "George <7jagjag@gmail.com>"
+    "George"
   ],
   "description": "angular plugin",
-  "main": "navbar.js",
+  "main": "plugin.js",
   "keywords": [
     "angular",
     "pulgin",
     "bootstrap"
   ],
-  "license": "MIT"
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "angular": "~1.2.20"
+  }
 }
