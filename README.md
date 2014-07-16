@@ -1,4 +1,4 @@
-#ng-plugin v1.0.1
+#ng-plugin v1.0.2
 
 ##Angular plugin
 
@@ -8,3 +8,11 @@
 	var app = angular.module.('myApp', ['g3org3']);
 </script>
 ```
+
+
+###Extra:
+for the fromNow ng-filter you need moment.js
+```shell
+$ bower install moment
+```
+or from http://momentjs.com/

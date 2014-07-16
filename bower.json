@@ -10,7 +10,8 @@
   "keywords": [
     "angular",
     "pulgin",
-    "bootstrap"
+    "bootstrap",
+    "g3org3"
   ],
   "dependencies": {
     "bootstrap": "~3.0.3",

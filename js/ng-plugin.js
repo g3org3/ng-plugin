@@ -32,7 +32,8 @@ angular.module('g3org3', [])
 		template: "<div class='container' ng-view></div>"
 	};
 })
-.filter('fecha', function() {
+.filter('fromNow', function() {
+	//requires moment.js
   return function(input) {
     return moment(input).fromNow();
   };
