@@ -8,7 +8,13 @@
 	var app = angular.module.('myApp', ['g3org3']);
 </script>
 ```
-
+##Directives
+```html
+<navbar title='My Title' theme='default' type='static' href='#' ng-theme='variable'></navbar>
+<container></container>
+<view></view>
+{{ expr | fromNow }} //ng filter
+```
 
 ###Extra:
 for the fromNow ng-filter you need moment.js
