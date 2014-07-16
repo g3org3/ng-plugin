@@ -1,0 +1,77 @@
+setColor(this){
+	color this
+	border-color this
+}
+setColorTheme(c1, c2) {
+	color c1
+	border-color c2
+}
+
+
+/*  BUTTONS  */
+.btn
+	background white
+	&:active
+		box-shadow inset 0px 0px 0px 1px white
+	&:hover
+		color white
+
+.btn-danger
+	setColor(_red)
+	&:hover
+		background _red
+
+.btn-primary
+	setColor(_blue)
+	&:hover
+		background _blue
+
+.btn-success
+	setColor(_darkgreen)
+	&:hover
+		background _darkgreen
+.btn-default
+	setColor(_gray)
+	&:hover
+		background _gray
+
+
+/* -------------------
+ * THEME BUTTONS -----
+ */
+.btn-danger-theme
+	setColorTheme(_red, _darkred)
+	&:hover
+		background linear-gradient(top, _red, _darkred)
+	&:active
+		background _red
+		box-shadow inset 0px 2px 6px _darkred
+.btn-primary-theme
+	setColorTheme(_blue, _darkblue)
+	&:hover
+		background linear-gradient(top, _blue, _darkblue)
+	&:active
+		background _blue
+		box-shadow inset 0px 2px 6px _darkblue
+
+.btn-success-theme
+	setColorTheme(_darkgreen, _darkgreen)
+	&:hover
+		background linear-gradient(top, _green, _darkgreen)
+	&:active
+		background _green
+		box-shadow inset 0px 2px 6px _darkgreen
+
+.btn-default-theme
+	setColorTheme(_gray, _darkgray)
+	&:hover
+		background linear-gradient(top, _gray, _darkgray)
+	&:active
+		background _gray
+		box-shadow inset 0px 2px 6px _darkgray
+
+
+
+
+
+
