@@ -15,7 +15,10 @@
 		background none
 	li .dropdown-menu
 		background white
-
+	.navbar-toggle
+		background white
+		.icon-bar
+			background _gray
 /*  blue  */
 .navbar-blue
 	background _blue
@@ -33,6 +36,10 @@
 		color _darkblue
 		&:hover
 			color white
+			background _blue
+	.navbar-toggle
+		background _darkblue
+		.icon-bar
 			background _blue
 /*  red  */
 .navbar-red
@@ -52,6 +59,10 @@
 		&:hover
 			color white
 			background _red
+	.navbar-toggle
+		background _darkred
+		.icon-bar
+			background _red
 /*  green  */
 .navbar-green
 	background _green
@@ -62,13 +73,17 @@
 		&:hover
 			color white
 	.active
-		background _green
+		background _darkgreen
 	.open>a, .open>a:hover, .open>a:focus
 		background _darkgreen
 	li .dropdown-menu a
 		color _darkgreen
 		&:hover
 			color white
+			background _green
+	.navbar-toggle
+		background _darkgreen
+		.icon-bar
 			background _green
 
 /*  purple  */
@@ -81,13 +96,17 @@
 		&:hover
 			color white
 	.active
-		background _purple
+		background _darkpurple
 	.open>a, .open>a:hover, .open>a:focus
 		background _darkpurple
 	li .dropdown-menu a
 		color _darkpurple
 		&:hover
 			color white
+			background _purple
+	.navbar-toggle
+		background _darkpurple
+		.icon-bar
 			background _purple
 
 /*  gray  */
@@ -100,7 +119,7 @@
 		&:hover
 			color white
 	.active
-		background _gray
+		background _darkgray
 	.open>a, .open>a:hover, .open>a:focus
 		background _darkgray
 	li .dropdown-menu a
@@ -108,21 +127,34 @@
 		&:hover
 			color white
 			background _gray
+	.navbar-toggle
+		background _darkgray
+		.icon-bar
+			background _gray
+
 /*  white  */
 .navbar-white
 	background white
 	.navbar-brand
-		color #454545
+		color white
 	li>a
-		color #454545
+		color white
 		&:hover
-			color #454545
+			color white
 	.active
-		background white
+		background _darkwhite
 	.open>a, .open>a:hover, .open>a:focus
 		background _darkwhite
 	li .dropdown-menu a
 		color _darkwhite
 		&:hover
-			color #454545
-			background #eee
+			color white
+			background white
+	.navbar-toggle
+		background _darkwhite
+		.icon-bar
+			background white
+@media(max-width: 767px)
+	.navbar
+		li .dropdown-menu a
+			color white
