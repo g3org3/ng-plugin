@@ -1,4 +1,4 @@
-#ng-plugin v1.0.2
+#ng-plugin v1.0.4
 
 ##Angular plugin
 
@@ -10,15 +10,14 @@
 ```
 ##Directives
 ```html
-<navbar title='My Title' theme='default' type='static' href='#' ng-theme='variable'></navbar>
+<navbar title='My Title' theme='default' type='static' href='#' ng-theme='variable'>
+	<menu>
+		<li><a href="">item</a></li>
+		<dropdown title='mydropdown' href='#'>
+			<li><a href="">item</a></li>
+		</dropdown>
+	</menu>
+</navbar>
 <container></container>
 <view></view>
-{{ expr | fromNow }} //ng filter
 ```
-
-###Extra:
-for the fromNow ng-filter you need moment.js
-```shell
-$ bower install moment
-```
-or from http://momentjs.com/
